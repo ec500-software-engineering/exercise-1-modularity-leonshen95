@@ -1,4 +1,4 @@
-import sensor
+
 class input_api:
 
     def __init__(self, user_id, age, gender, Heart_Rate, Systolic_BP, Diastolic_BP, Heart_O2_Level, Body_temp, time):
