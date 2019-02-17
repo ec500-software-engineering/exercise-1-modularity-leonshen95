@@ -1,3 +1,4 @@
+import sensor
 class input_api:
 
     def __init__(self, user_id, age, gender, Heart_Rate, Systolic_BP, Diastolic_BP, Heart_O2_Level, Body_temp, time):
@@ -44,8 +45,8 @@ class input_api:
             return self.user_id, self.dic
         
         
-my_data = input_api('a', 1, 'male', 1, 1, 10000, 1, 1, 1)
-print(my_data.dic)
-my_data.implement_filter()
-print(my_data.dic)
-print(my_data.return_request())
+# my_data = input_api('Jack', 10, 'male', sensor.heart_rateSensor.get_heart_rate(), sensor.blood_pulse.get_blood_pulse(), sensor.blood_pulse.get_blood_pulse(), sensor.heart_o2Sensor.get_heart_o2(), sensor.body_tempSensor.get_body_temp(), sensor.time.get_time())
+# print(my_data.dic)
+# # my_data.implement_filter()
+# # print(my_data.dic)
+# my_data.return_request("alert")
