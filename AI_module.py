@@ -18,7 +18,7 @@ class AI_module(object):
         # Database = database_dict()
         Heart_Rate=list()
         Blood_oxygen=list()
-        Blood_pressure = list()
+        
         Systolic= list()
         Diastolic= list()
         DataBaseModule.search(ID)
