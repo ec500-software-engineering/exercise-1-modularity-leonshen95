@@ -1,3 +1,6 @@
+numpy
+random
+datetime
 mypy
 flake8
 pytest
