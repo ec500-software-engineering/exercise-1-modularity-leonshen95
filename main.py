@@ -1,10 +1,9 @@
 import input_api
 import Analyzer
-import Database_Module
-import _thread
+
 import AI_module
 import OutputAlert_module
-import time
+
 import sensor
 
 class main:
